@@ -27,7 +27,7 @@ function TodoList({ darkMode }) {
     setInputError("");
   };
 
-  // Helper to toggle selection
+
   const toggleSelect = (idx) => {
     setSelected((prev) =>
       prev.includes(idx) ? prev.filter((i) => i !== idx) : [...prev, idx]
@@ -47,7 +47,7 @@ function TodoList({ darkMode }) {
     setSelected([]);
   };
 
-  // Card classes for modern look
+
   const cardClass = `card shadow-lg border-0 rounded-4 px-0 ${
     darkMode ? "bg-light text-dark" : "bg-white text-dark"
   }`;

@@ -31,8 +31,8 @@ reactactivity/
 - ✅ Select multiple tasks
 - ✅ Mark tasks as finished
 - 🗑️ Delete tasks
-- 🌙 Dark mode support (controlled via `darkMode` prop)
-- ⚠️ Clean error UI using icon-only feedback
+- 🌙 Dark mode support
+
 
 ## 🚀 Getting Started
 
