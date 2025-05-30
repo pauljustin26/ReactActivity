@@ -1,12 +1,42 @@
-# React + Vite
+# 📝 React To-do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple yet stylish To-do List application built with **React** and **Bootstrap**. It features the ability to:
 
-Currently, two official plugins are available:
+- Add tasks
+- Select and mark tasks as finished
+- Delete selected tasks
+- View completed tasks
+- Support for dark/light modes (via prop)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Project Structure
+reactactivity/
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/ # Optional: for images, logos, etc.
+│ ├── components/
+│ │ └── Todo.jsx # Main to-do list component
+│ ├── App.jsx # App entry component
+│ ├── main.jsx # React entry point (for Vite) or index.js (for CRA)
+│ ├── index.css # Global styles (optional)
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js # (if using Vite) or other config (CRA: no config needed)
 
-## Expanding the ESLint configuration
+## 📦 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add new tasks with validation
+- ✅ Visual feedback with Font Awesome icons
+- ✅ Select multiple tasks
+- ✅ Mark tasks as finished
+- 🗑️ Delete tasks
+- 🌙 Dark mode support (controlled via `darkMode` prop)
+- ⚠️ Clean error UI using icon-only feedback
+
+## 🚀 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/todo-app.git
+   cd todo-app
