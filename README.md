@@ -36,7 +36,10 @@ reactactivity/
 
 ## 🚀 Getting Started
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yourusername/todo-app.git
-   cd todo-app
+## 💻 Tech Stack
+
+| Technology    | Description                          |
+|---------------|--------------------------------------|
+| ⚛️ React       | JavaScript library for building UIs  |
+| 🎨 Bootstrap 5 | Responsive and modern styling       |
+| ⭐ Font Awesome| Icon library for visual UI elements |
